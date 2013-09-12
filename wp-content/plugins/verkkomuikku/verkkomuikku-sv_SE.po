@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Verkkomuikku-OSY\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-24 15:31+0200\n"
+"PO-Revision-Date: 2011-08-26 11:35+0200\n"
+"Last-Translator: Teemu Muikku <verkkomuikku@gmail.com>\n"
+"Language-Team: Verkkomuikku <verkkomuikku@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ./.\n"
+
+#: verkkomuikku-plugin.php:206
+msgid "Page: "
+msgstr ""
+
+#: verkkomuikku-plugin.php:210
+#, php-format
+msgid "Sidebar for page %s"
+msgstr ""
+
+#: verkkomuikku-plugin.php:456
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: verkkomuikku-plugin.php:588
+msgid "Create account"
+msgstr "Registrera"
+
+#: verkkomuikku-plugin.php:600
+msgid "Sorry, the content is not available in English."
+msgstr "Tyvärr finns innehållet inte tillgängligt på svenska."
+
+#: verkkomuikku-plugin.php:807
+msgid "Sent Newsletters"
+msgstr "Skickade nyhetsbrev"
+
+#: verkkomuikku-plugin.php:808
+#, php-format
+msgid "Did you like the article? <a href=\"%s\" title=\"Subscribe email newsletter\">Subscribe our email newsletter</a> to stay updated with new articles!"
+msgstr ""
+
+#~ msgid "Participate!"
+#~ msgstr "Delta!"

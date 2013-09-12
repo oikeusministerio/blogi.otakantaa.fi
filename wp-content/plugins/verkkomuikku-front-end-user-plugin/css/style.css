@@ -1,0 +1,184 @@
+.vmfeu_wrapper {
+	font-size: 12px;
+	line-height: 18px;
+}
+.vmfeu_wrapper .fieldset_description {
+	font-size: 15px;
+	clear: both;
+	float: left;
+	width: auto;
+}
+.vmfeu_wrapper label, .vmfeu_wrapper span {
+	color: #888888;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.vmfeu_wrapper p { margin: 0 0 10px 0; }
+.entry-content .vmfeu_wrapper p { margin: 0 0 10px 0; }
+
+.vmfeu_wrapper input[type=text], .vmfeu_wrapper input[type=password], .vmfeu_wrapper textarea { 
+	font-size: 14px;
+	line-height: 21px;
+	
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 98%;
+    
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset;
+    padding: 1%;	
+}
+.vmfeu_wrapper input[type="text"],
+.vmfeu_wrapper input[type="password"],
+.vmfeu_wrapper textarea {
+	color: #666;
+}
+.vmfeu_wrapper input[type="text"],
+.vmfeu_wrapper input[type="password"] {
+	height: 22px;
+}
+#vmfeu_lostpassword input[type="text"] {
+	width: auto;
+}
+.vmfeu_wrapper dl {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 30px;
+}
+.vmfeu_wrapper dl input[type="text"], 
+.vmfeu_wrapper dl input[type="password"], 
+.vmfeu_wrapper dl textarea {
+	margin: 0 0 10px 0 !important;
+}
+
+.vmfeu_wrapper dl input[type="text"], 
+.vmfeu_wrapper dl input[type="password"], 
+.vmfeu_wrapper dl textarea {
+	width: 300px;
+}
+
+.widget-area .vmfeu_wrapper dl input[type="text"], 
+.widget-area .vmfeu_wrapper dl input[type="password"], 
+.widget-area .vmfeu_wrapper dl textarea {
+	width: 98%;
+}
+
+.widget-area .vmfeu_wrapper dl {
+	margin: 0 0 5px 0 !important;
+	float: none;
+}
+
+.vmfeu_fb_me {
+	padding: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	min-height: 42px;
+	background: #3b5998; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6179ac', endColorstr='#3b5998'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#6179ac), to(#3b5998)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #6179ac,  #3b5998); /* for firefox 3.6+ */ 	
+}
+#vmfeu_profile .vmfeu_fb_me {
+	width: 190px;
+	float: left;
+	margin-right: 10px;;
+}
+
+.vmfeu_fb_me p {
+	margin: 0 0 0 37px !important;
+	padding: 0 !important;
+}
+.vmfeu_fb_me p a {
+	color: white !important;
+	vertical-align: middle;
+	text-shadow: -1px -1px 1px #666;
+}
+
+.vmfeu_fb_me .fb-avatar {
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-right: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+}
+
+#vmfeu_profile_facebook_nag {
+    margin-bottom: 40px;
+    min-height: 52px;
+    width: 100%;
+}
+
+.vmfeu_wrapper dd {
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px; 
+	clear: both;
+	float: left; 
+	width: 20%;
+	text-align: right;
+	margin: 5px 5px 5px 0;
+}
+
+.vmfeu_wrapper dt {
+	width: 77%;
+	margin: 5px 0;
+	text-align: left !important;
+	font-weight: normal;
+	float: left;
+}
+
+.widget-area .vmfeu_wrapper dd {
+	float: none;
+	text-align: left;
+	width: 100%;
+	margin: 5px 0;
+}
+.widget-area .vmfeu_wrapper dt {
+	float: none;
+	width: 100%;
+}
+.vmfeu_wrapper .not_valid {
+	border: 1px solid #cb0000 !important;
+}
+
+.vmfeu_wrapper .error {
+	color: #cb0000 !important;
+}
+
+.vmfeu_wrapper .alert {
+	border-left: 5px solid #cb0000;
+	padding-left: 5px;
+}
+
+.vmfeu_extra_login_wrapper {
+	margin: 5px;
+	padding: 5px;
+	clear: both;
+}
+
+.entry-content .vmfeu_extra_login_wrapper {
+	margin: 15px 0 0 20%;
+}
+
+.widget-area .vmfeu_extra_login_wrapper {
+	margin: 10px 0;
+	padding: 0;
+}
+
+/* TwentyEleven theme Facebook avatar fix */
+.fb-avatar img.avatar {
+	left: 0;
+}
+.commentlist .children .fb-avatar img.avatar {
+	top: 0;
+	left: 0;
+}

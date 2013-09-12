@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GravatarLocalCache v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-02-19 15:51+0000\n"
+"Last-Translator: Oliver Schaal <maverick@unrealextreme.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: GravatarLocalCache.php:107
+#@ glc
+msgid "GravatarLocalCache Stats"
+msgstr "GravatarLocalCache Statistiken"
+
+#: GravatarLocalCache.php:125
+#: GravatarLocalCache.php:366
+#@ glc
+msgid "Images in cache"
+msgstr "Bilder im Cache"
+
+#: GravatarLocalCache.php:136
+#: GravatarLocalCache.php:378
+#@ glc
+msgid "Total size"
+msgstr "Gesamtgröße"
+
+#: GravatarLocalCache.php:143
+#: GravatarLocalCache.php:386
+#@ glc
+msgid "Size (smallest/largest)"
+msgstr "Größe (kleinstes/größtes Bild)"
+
+#: GravatarLocalCache.php:152
+#: GravatarLocalCache.php:396
+#@ glc
+msgid "Date (youngest/oldest)"
+msgstr "Datum (jüngstes/ältestes Bild)"
+
+#: GravatarLocalCache.php:163
+#: GravatarLocalCache.php:407
+#@ glc
+msgid "There are no cached images."
+msgstr "Es befinden sich keine Bilder im Cache."
+
+#: GravatarLocalCache.php:287
+#@ glc
+msgid "Ticketsystem/Wiki"
+msgstr ""
+
+#: GravatarLocalCache.php:288
+#@ glc
+msgid "Support-Forum"
+msgstr ""
+
+#: GravatarLocalCache.php:307
+#@ glc
+msgid "Options saved."
+msgstr "Einstellungen gespeichert."
+
+#: GravatarLocalCache.php:313
+#: GravatarLocalCache.php:318
+#@ glc
+msgid "Cachedirectory"
+msgstr "Cache-Verzeichnis"
+
+#: GravatarLocalCache.php:313
+#: GravatarLocalCache.php:318
+#@ glc
+msgid "(should be 0755)"
+msgstr "(sollte 0755 sein)"
+
+#: GravatarLocalCache.php:313
+#: GravatarLocalCache.php:318
+#@ glc
+msgid "Plugindirectory"
+msgstr "Plugin-Verzeichnis"
+
+#: GravatarLocalCache.php:314
+#: GravatarLocalCache.php:319
+#@ glc
+msgid "If you need some help, check the support-forum: "
+msgstr "Falls du Hilfe brauchst, schau bitte im Support-Forum vorbei:"
+
+#: GravatarLocalCache.php:315
+#: GravatarLocalCache.php:320
+#@ glc
+msgid "Link"
+msgstr "Link"
+
+#: GravatarLocalCache.php:315
+#: GravatarLocalCache.php:320
+#@ glc
+msgid "Please include the debug information in your post"
+msgstr "Bitte füge die Debug-Informationen deinen Beitrag an"
+
+#: GravatarLocalCache.php:317
+#@ glc
+msgid "Cache directory doesn't exists or isn't writable."
+msgstr "Das Cache-Verzeichnis existiert nicht oder es liegt ein Rechteproblem vor."
+
+#: GravatarLocalCache.php:329
+#@ glc
+msgid "Cache Settings"
+msgstr "Cache Einstellungen"
+
+#: GravatarLocalCache.php:339
+#@ glc
+msgid "caching time"
+msgstr "Cache-Zeit"
+
+#: GravatarLocalCache.php:344
+#@ glc
+msgid "maximum time (in hours) the gravatar images will be cached."
+msgstr "Maximale Dauer (in Stunden) bis ein Gravatar neugeladen werden soll."
+
+#: GravatarLocalCache.php:357
+#@ glc
+msgid "Cache Stats"
+msgstr "Cache Statistiken"
+
+#: GravatarLocalCache.php:401
+#@ glc
+msgid "path"
+msgstr "Pfad"
+
+#: GravatarLocalCache.php:403
+#@ glc
+msgid "URL"
+msgstr "URL"
+
+#: GravatarLocalCache.php:312
+#@ glc
+msgid "The plugin may not work correctly, cause there is a problem with the directory permissions."
+msgstr "Aufgrund eines Rechteproblems funktionert das Plugin funktioniert möglicherweise nicht korrekt."
+
+#: GravatarLocalCache.php:353
+#@ glc
+msgid "Update Options"
+msgstr "Einstellungen speichern"
+

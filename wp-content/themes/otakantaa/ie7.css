@@ -1,0 +1,17 @@
+/* Searchbar goes wild */
+div#nav-searchform input#s {
+	width: 150px;
+}
+#branding {
+	height: 200px;
+}
+/* Narrower page */
+#page {
+	width: 950px;
+}
+
+
+/* Facebook widget doesn't show */
+.widget_vmfb_wall_widget {
+	display: none;
+}

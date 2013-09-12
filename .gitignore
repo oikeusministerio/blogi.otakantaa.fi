@@ -1,0 +1,26 @@
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!.gitignore
+!wp-content/
+
+# Ignore everything in the "wp-content" directory, except the "plugins"
+# and "themes" directories.
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+wp-content/plugins/*
+!wp-content/plugins/alo-easymail/
+!wp-content/plugins/contact-form-7/
+!wp-content/plugins/gravatarlocalcache/
+!wp-content/plugins/jetpack/
+!wp-content/plugins/qtranslate/
+!wp-content/plugins/verkkomuikku/
+!wp-content/plugins/verkkomuikku-fb-plugin/
+!wp-content/plugins/verkkomuikku-front-end-user-plugin/
+!wp-content/plugins/verkkomuikku-galleria-plugin/
+!wp-content/plugins/wordpress-seo/
+
+wp-content/themes/*
+!wp-content/themes/twentyeleven/
+!wp-content/themes/otakantaa/

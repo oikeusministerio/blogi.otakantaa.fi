@@ -1,0 +1,55 @@
+/* Facebook look and feel for the wall widget */
+aside.widget_vmfb_wall_widget {
+	border: 1px solid #AAAAAA;
+	border-top-color: #315C99;
+}
+
+.widget_vmfb_wall_widget .widget-title {
+	background-color: rgba(165, 175, 200, 0.2);
+	border-bottom: 1px solid #C6CEDD;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	
+	padding: 7px;
+}
+.vmfb_wall_wrapper {
+	overflow: hidden;
+	padding: 5px;
+}
+	
+.vmfb_wall_wrapper .fb-wall {
+	width: 100%;
+	padding: 0;
+} 
+
+/* Sharing buttons */
+.vmfb_sharing_wrapper {
+	clear: both;
+	width: 100%;
+}
+.vmfb_sharing_wrapper ul {
+	margin: 0;
+}
+.vmfb_sharing_wrapper ul li {
+	float: left;
+    list-style: none outside none;
+    padding: 5px 9px 0 0;
+    width: 24%;
+}
+.vmfb_sharing_wrapper ul li.vmfb_fb_button {
+	width: 600px; 
+}
+.vmfb_sharing_wrapper ul li.vmfb_fb_button .fb_iframe_widget span { width: 500px !important; }
+.vmfb_sharing_wrapper ul li.vmfb_twitter_button, 
+.vmfb_sharing_wrapper ul li.vmfb_google_plus_button {
+	padding-top: 7px;
+}
+
+/* Sharedaddy */
+div.sharedaddy div.sd-block { border: 0; padding: 5px 0 0 0; margin: 0; }
+
+.sharing li, .sharing-hidden li {
+	margin: 0 !important;
+	padding: 5px 9px 0 0 !important; 
+}

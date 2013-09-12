@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Verkkomuikku FB plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-17 13:45+0200\n"
+"PO-Revision-Date: 2011-08-17 13:45+0200\n"
+"Last-Translator: Teemu Muikku <verkkomuikku@gmail.com>\n"
+"Language-Team: Verkkomuikku <verkkomuikku@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin\n"
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:151
+msgid "Verkkomuikku FB plugin"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:160
+msgid "General Settings"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:161
+msgid "Use plugin CSS"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:163
+msgid "Open Graph Settings"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:164
+msgid "Include site open graph meta. This is required if you want to show Like button for your site."
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:165
+msgid "Open Graph meta tags for your site. These are modified for each post/page if you check \"show like button on posts/pages\""
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:167
+msgid "Facebook Application settings"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:168
+msgid "Facebook Application ID"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:169
+msgid "Facebook Application secret key"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:190
+msgid "Facebook Like button requires Open Graph meta tags included in site HTML <head> section. If you wan't to use like button for your site, enable Open Graph for the site, fill at least required meta tags and use shortcode [vmfb_like_button] or call global $vmfb->like_button() to display the like button."
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:191
+msgid "You can enable like button for pages and posts if you like. The meta tags will get automatically modified to correspond the page or post."
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:193
+msgid "How to use OG meta tags, see: "
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:202
+msgid "To provide Facebook functionality, please provide Facebook application id and app secret"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:244
+msgid "The title of your object as it should appear within the graph. (blog name)"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:245
+msgid "website, see:"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:246
+msgid "Image URL. Aspect ratio: max 3:1, supported types: PNG, JPG, GIF"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:247
+msgid "The canonical URL of your object that will be used as its permanent ID in the graph. (site url)"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:248
+msgid "A human-readable name for your site. (blog name)"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:249
+msgid "A comma-separated list of either Facebook user IDs or a Facebook Platform application ID (fill into field app_id) that administers this page. It is valid to include both fb:admins and fb:app_id on your page."
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/verkkomuikku-fb-plugin.php:250
+msgid "A one to two sentence description of your page. (blog description)"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:66
+msgid "at"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:67
+msgid "like this"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:68
+msgid "likes this"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:69
+msgid "has not shared any information."
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:70
+msgid "people"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:175
+msgid "Facebook Wall settings"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:176
+msgid "Facebook Object ID (group, user...)"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:177
+msgid "Facebook Object Access Token"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:178
+msgid "How many to display?"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:179
+msgid "Show comments"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:180
+msgid "Show guest entries"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:191
+msgid "To show Facebook Wall in your site, please fill following options and use Facebook Wall Widget or call function vmfb_wall()"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-fb-wall.php:221
+msgid "Site app access token is used, unless you specify an access token here. Open groups / pages wall can be displayed with site app access token. If you wan't to show something private, please provide access_token here!"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-admin-settings.php:10
+msgid "Verkkomuikku Facebook plugin settings"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-admin-settings.php:14
+msgid "Settings saved"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-admin-settings.php:18
+msgid "Basic Information"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-admin-settings.php:24
+msgid "Include Open Graph meta into your site and turn your site into a Facebook page."
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-admin-settings.php:27
+msgid "NOTE: this plugin requires Facebook application for your site. Also some functionality requires user info (Facebook Connect). The simplest way is to use Verkkomuikku Front end user plugin"
+msgstr ""
+
+#: /home/teemu/www/osallistumisymparisto/wp-content/plugins/verkkomuikku-fb-plugin/includes/vmfb-widgets.php:48
+msgid "Title:"
+msgstr ""
+

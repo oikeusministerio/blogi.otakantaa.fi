@@ -1,0 +1,492 @@
+/*
+Theme Name:     blogi.otakantaa.fi
+Theme URI:      -
+Description:    Osallistumisympäristö WP Twenty Eleven lapsiteema, otakantaa 2012 ulkoasu
+Author:         OM, Verkkomuikku
+Author URI:     
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+
+@import url("../twentyeleven/style.css");
+
+/* This prevents short vs long pages to jump (scroll bar always visible) */
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background: #f0f0f0;
+	padding: 0;
+}
+
+/* Narrower top.. */
+#main {
+	padding: 1em 0 0;
+}
+
+#content nav {
+	padding: 0;
+}
+#nav-single {
+	top: 12px;
+}
+.page-title {
+	margin: 0;
+}
+
+/* Fix width */
+#page {
+	width: 1000px;
+}
+
+/* Couple percent wider sidebar by narrowing margins*/
+#primary {
+   margin: 0 -31.6% 0 0;
+}
+#secondary {
+    margin-right: 5%;
+    width: 26%;
+    padding-top: 20px;
+}
+#content {
+    margin: 0 34% 0 5%;
+    width: 58.4%;
+}
+
+#access div {
+    margin: 0 5%;
+}
+
+#access a {
+	font-size: 14px;
+}
+
+#access ul ul {
+	top: 3.6em;
+	width: 188px;
+}
+
+#access ul ul.sub-menu {
+	border: 1px solid #ddd;
+	border-top: 0;
+}
+
+
+#access .current-menu-item > a {
+    font-weight: bold;
+}
+
+/* Widen comments */
+.commentlist {
+	margin: 0 0 0 17%;
+    width: 83%;
+}
+#respond {
+	margin: 0;
+	width: auto;
+}
+
+/* Menu */
+#access {
+	background: #585a5a; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#7e8080, #585a5a);
+	background: -o-linear-gradient(#7e8080, #585a5a);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7e8080), to(#585a5a)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#7e8080, #585a5a);
+}
+
+
+/* Widgets */
+#secondary input[type=submit] {
+	/* safari style button */
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+	background: -moz-linear-gradient(center top , #fcfcfc 0%, #f3f3f3 35%, #ededed 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(40%,#f3f3f3), color-stop(100%,#ededed));
+	-moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 1px 0 0 rgba(0, 0, 0, 0.15), 0 -2px 3px 0px #FFF inset, 0 -10px 0 0 #ededed inset;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 1px 0 0 rgba(0, 0, 0, 0.15), 0 -2px 3px 0px #FFF inset, 0 -10px 0 0 #ededed inset;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 1px 0 0 rgba(0, 0, 0, 0.15), 0 -2px 3px 0px #FFF inset, 0 -10px 0 0 #ededed inset;
+
+	border: 1px solid #666;
+	font-size: 14px;
+}
+
+.widget-title {
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 10px;
+}
+
+.widget_vmfeu_sidebar_login {
+	background-color: #0fbbd0;
+	color: white;
+	padding: 5px;
+}
+
+.widget_tag_cloud .widget-title {
+	display: none;
+}
+
+.widget_tag_cloud { 
+    margin-bottom: 50px;
+    margin-right: -30px;
+    text-align: justify;
+}
+.widget_tag_cloud a.tag-link-size-20,
+.widget_tag_cloud a.tag-link-size-19,
+.widget_tag_cloud a.tag-link-size-18 { color: #0000C2; } /* #00acc5; */
+.widget_tag_cloud a.tag-link-size-17,
+.widget_tag_cloud a.tag-link-size-16 { color: #00B6FC; } /* #48b5c5; */
+.widget_tag_cloud a.tag-link-size-15,
+.widget_tag_cloud a.tag-link-size-14,
+.widget_tag_cloud a.tag-link-size-13 { color: #00E7FF; } /* #6ab9c5; */
+.widget_tag_cloud a.tag-link-size-12, 
+.widget_tag_cloud a.tag-link-size-11, 
+.widget_tag_cloud a.tag-link-size-10 { color: #FF9300; } /* #82bdc5; */
+.widget_tag_cloud a.tag-link-size-9,
+.widget_tag_cloud a.tag-link-size-8 { color: #D70863; } /* #94bfc5; */
+
+.widget_osy_recent_comments { margin-bottom: 40px; }
+.widget_osy_recent_comments ul li.recentcomments,
+.widget_osy_recent_comments ul li.recentcomments a {
+	font-size: 11px;
+}
+.widget_osy_recent_comments ul li.recentcomments span.comment_author_link a { color: #2c008d; }
+.recentcomments a { display:inline !important;padding:0 !important;margin:0 !important; }
+
+.widget_vmfeu_sidebar_login .vmfeu_wrapper label { color: white; }
+
+.widget_vmfeu_sidebar_login .vmfeu_wrapper dt,
+.widget_vmfeu_sidebar_login .vmfeu_wrapper dd {
+	margin: 0 !important;
+}
+.widget_vmfeu_sidebar_login .vmfeu_wrapper dt.forgot-password { margin-top: 10px !important; }
+.widget_vmfeu_sidebar_login .button-primary {
+	margin-top: 5px;
+}
+.widget_vmfeu_sidebar_login .vmfeu_wrapper dl input[type="text"], 
+.widget_vmfeu_sidebar_login .vmfeu_wrapper dl input[type="password"] {
+	margin-bottom: 5px !important;
+}
+
+.widget_vmfeu_sidebar_login .vmfeu_wrapper .error {
+    color: #ffd3d3 !important;
+}
+
+.widget_vmfeu_sidebar_login a,
+.widget_vmfeu_sidebar_login a:hover,
+.widget_vmfeu_sidebar_login a:visited {
+	color: white;
+	font-weight: bold;
+}
+.error404 #main .widget_tag_cloud {
+    float: left;
+    margin-right: 0;
+    width: 30.85%;
+}
+
+.alo_easymail_widget {
+	background-color: #c3cc13;
+	padding: 5px;
+}
+.alo_easymail_widget .alo_easymail_preform_msg {
+	color: #333;
+	font-size: 90%;
+	margin-bottom: 12px;
+}
+
+.textwidget .author-info,
+.author .textwidget .author-info	 {
+	width: 50px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.textwidget .author-info .author-avatar {
+	width: 50px;
+	margin: 0 2px 2px 0;
+}
+.textwidget .author-info .author-description {
+	width: 0;
+	margin: 0;
+	display: none;
+}
+/* Header utility */
+#branding #searchform {
+    position: relative;
+    right: 7px;
+    top: 8px;
+}
+div#nav-searchform {
+	position: absolute;
+	right: 0;
+	margin: 0px;
+	z-index: 10;
+}
+div#nav-searchform input#s {
+	background-color: white;
+}
+
+/* Lang menu - needs #page to be relative position.. Test with different browsers! */
+div#page {position: relative;}
+#branding { z-index: 999; }
+div#language-menu {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 9999;
+	font-size: 13px;
+	width: 11%;
+	margin-top: 55px;
+}
+div#language-menu ul {
+	margin: 0;
+}
+div#language-menu ul li {
+	list-style-type: none; 
+}
+div#language-menu ul li a,
+div#language-menu ul li a:hover,
+div#language-menu ul li a:visited {
+	color: #888585;
+}
+
+/* Safa changes from twentyeleven/style.css */
+body, input, textarea, h1, h2, blockquote cite {
+	font-family: Verdana, sans-serif;
+}
+
+#page {
+	margin: 0 auto 2em auto;
+}
+
+a,
+a:hover,
+#access a.assistive-text:active,
+#access a.assistive-text:focus,
+#site-title a:hover,
+#site-title a:focus,
+#site-title a:active,
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	color: #00adc6;
+}
+
+.entry-header .comments-link a:hover,
+.entry-header .comments-link a:focus,
+.entry-header .comments-link a:active {
+	background-color: #00adc6;
+}
+
+article.feature-image.small .entry-summary p a:hover,
+.feature-slider a.active,
+.widget_search #searchsubmit:active,
+#respond input#submit:active {
+	background: #00adc6;
+}
+
+section.recent-posts .other-recent-posts .comments-link a:hover {
+	color: #00adc6;
+	border-color: #00adc6;
+}
+
+/* Author Info */
+.single-author .entry-meta .by-author {
+	display: inline;
+}
+
+#author-info {
+	padding-top: 1.625em;
+}
+.author-info {
+	font-size: 12px;
+	overflow: hidden;
+}
+.singular .author-info {
+	margin: 2.2em -35.6% 0 -35.4%;
+	padding: 20px 35.4%;
+}
+.archive .author-info {
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 2.2em;
+	padding: 0 0 2.2em;
+}
+.author-avatar {
+	float: left;
+	margin-right: -78px;
+	width: 60px;
+}
+.author-avatar img {
+	background: #fff;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px #bbb;
+	-moz-box-shadow: 0 1px 2px #bbb;
+	box-shadow: 0 1px 2px #bbb;
+	padding: 3px;
+}
+.author-description {
+	float: left;
+	margin-left: 108px;
+}
+.author-description h2 {
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5px 0 10px;
+}
+
+#author-meta, .author-meta {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-left: 108px;
+}
+#author-meta a, .author-meta a {
+	color: black;
+}
+#author-meta a img, .author-meta a img {
+	margin-right: 5px;
+}
+
+/* Plugins */
+
+/* Facebook avatar fix */
+.commentlist .children .fb-avatar img.avatar {
+	top: 0;
+	left: 0;
+}
+
+/* Twitter look and feel for jetpack twitter feed */ 
+aside.widget_twitter {
+	padding: 0 10px 10px 10px;
+	border-bottom: 10px solid #daecf4;
+	background: url('http://widgets.twimg.com/i/widget-logo.png') bottom center no-repeat #daecf4;
+}
+aside.widget_twitter .widget-title {
+	padding-top: 10px;
+	color: black;
+}
+
+aside.widget_twitter .timesince {
+	margin-right: 0;
+}
+aside.widget_twitter ul li {
+	color: black;
+}
+aside.widget_twitter ul li a {
+	color: #0084B4;
+	font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+	font-size: 12px;
+	font-weight: 400;	
+}
+
+/* qTranslate */
+p.notice {
+    border-left: 3px solid #cb0000;
+    color: #666666;
+    font-size: 80%;
+    padding-left: 5px;
+}
+
+/* ALO EasyMail */
+
+#secondary table.alo_easymail_form_table td input {
+	clear: both;
+	width: 100%;
+}
+
+.alo_easymail_widget_form .vmfeu_wrapper dl {
+	margin-bottom: 10px;
+}
+
+.alo_easymail_widget_error {
+	color: #cb0000;
+}
+
+/* Wordpress SEO by Yoast */
+p#breadcrumbs {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 12px !important;
+}
+
+/* Experimental */
+
+#font-resize-wrapper {
+	margin-top: 5px;
+}
+#font-resize-wrapper div.button {
+	color: #ddd;
+	text-align: center;
+	line-height: 17px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	border: 1px solid #666;
+	cursor: pointer;
+	width: 20px; 
+	height: 17px;
+	float: left;
+	padding: 3px;
+	margin-right: 3px;
+
+	background: #4f4f4f; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#4f4f4f, #717171);
+	background: -o-linear-gradient(#4f4f4f, #717171);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4f4f4f), to(#717171)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#4f4f4f, #717171);
+
+}
+#font-resize-wrapper #text_size_reset {
+	font-size: 11px;
+}
+#font-resize-wrapper #text_size_up {
+	font-size: 16px;
+}
+
+/* People page */
+.author-info {
+	width: 30%;
+	float: left;
+}
+.author-info.first {
+	clear: both;
+}
+.author-info .author-avatar {
+	width: 50px;
+	margin-right: -60px;
+}
+.author-info .author-description {
+	font-size: 10px;
+	margin-left: 60px;
+}
+.author-info .author-description h2 {
+	font-size: 12px;
+	margin: 0;
+}
+
+embed, iframe, object {
+    display: block;
+    margin: 0 auto;
+}
+
+/* IFrame - full height minus WP admin bar on top */
+#full_iframe { 
+    width: 100%;
+    position: absolute;
+    top: 30px; 
+    left: 0;
+    bottom: 0;
+}
+#full_iframe iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}

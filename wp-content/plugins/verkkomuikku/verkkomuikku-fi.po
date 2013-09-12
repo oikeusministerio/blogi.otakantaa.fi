@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: verkkomuikku-osy-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-06 17:14+0200\n"
+"PO-Revision-Date: 2011-11-06 18:05+0200\n"
+"Last-Translator: Teemu Muikku <verkkomuikku@gmail.com>\n"
+"Language-Team: Verkkomuikku <verkkomuikku@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ./.\n"
+
+#: verkkomuikku-plugin.php:232
+msgid "Page: "
+msgstr "Sivu:"
+
+#: verkkomuikku-plugin.php:236
+#, php-format
+msgid "Sidebar for page %s"
+msgstr "Sivupalkki sivulle %s"
+
+#: verkkomuikku-plugin.php:491
+#, php-format
+msgid "Posts by %s"
+msgstr "%sn artikkelit"
+
+#: verkkomuikku-plugin.php:623
+msgid "Create account"
+msgstr "Rekisteröidy"
+
+#: verkkomuikku-plugin.php:635
+msgid "Sorry, the content is not available in English."
+msgstr "Valitettavasti teksti ei ole saatavilla suomeksi."
+
+#: verkkomuikku-plugin.php:665
+msgid "Exclude me from the Participants page"
+msgstr "Piilota minut \"Mukana\" -sivulta"
+
+#: verkkomuikku-plugin.php:679
+msgid "Public profile"
+msgstr "Julkinen profiili"
+
+#: verkkomuikku-plugin.php:900
+msgid "Number of posts to show fully after which show only titles."
+msgstr "Näytä x uusinta artikkelia kokonaan, jonka jälkeen näytetään pelkät otsikot."
+
+#: verkkomuikku-plugin.php:909
+msgid "Select the main category for front page. Posts from other categories are minimized."
+msgstr "Etusivun pääkategoria. Muiden kategorioiden artikkeleista näytetään etusivulla pelkästään artikkelin otsikko."
+
+#: verkkomuikku-plugin.php:919
+msgid "Set posts per page from 10 to 100 and use this setting to minimize posts to minimize scrolling."
+msgstr "Aseta \"Näytä enintään x artikkelia\" arvoksi 10 - 100 ja käytä tätä asetusta artikkelien kutistamiseen jolloin käyttäjien ei tarvitse skrollata ruutua niin paljoa."
+
+#: verkkomuikku-plugin.php:929
+msgid "Show all categories"
+msgstr "Kaikki kategoriat"
+
+#: verkkomuikku-plugin.php:935
+msgid "Select \"Show All Categories\" and all posts are shown fully."
+msgstr "Jos haluat että etusivulla ei kutisteta artikkeleita kategorian mukaan, valitse \"Kaikki kategoriat\""
+
+#: verkkomuikku-plugin.php:951
+msgid "Sent Newsletters"
+msgstr "Lähetetyt uutiskirjeet"
+
+#: verkkomuikku-plugin.php:952
+#, php-format
+msgid "Did you like the article? <a href=\"%s\" title=\"Subscribe email newsletter\">Subscribe our email newsletter</a> to stay updated with new articles!"
+msgstr "Piditkö artikkelista? <a href=\"%s\" title=\"Tilaa uutiskirje\">Tilaamalla uutiskirjeen</a> saat ilmoituksen uusista artikkeleista sähköpostiisi!"
+
+#: ALO-easymail-custom.php:26
+msgid "Latest posts"
+msgstr "Uusimmat artikkelit"
+
+#: ALO-easymail-custom.php:28
+msgid "A list with the latest published posts"
+msgstr "Lista uusimmista artikkeleista"
+
+#: ALO-easymail-custom.php:46
+msgid "Select how many posts"
+msgstr "Valitse kuinka monta uusinta artikkelia"
+
+#: ALO-easymail-custom.php:113
+msgid "Utility"
+msgstr "Toiminnot"
+
+#: ALO-easymail-custom.php:129
+msgid "Create new newsletter this newsletter as template."
+msgstr "Luo uusi uutiskirje kloonaamalla tämä uutiskirje."
+
+#: ALO-easymail-custom.php:129
+msgid "Clone"
+msgstr "Kloonaa"
+
+#~ msgid "Participate!"
+#~ msgstr "Osallistu!"

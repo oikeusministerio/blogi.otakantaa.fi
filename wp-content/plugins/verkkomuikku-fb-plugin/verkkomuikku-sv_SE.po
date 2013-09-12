@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Verkkomuikku FB plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-26 17:52+0200\n"
+"PO-Revision-Date: 2011-09-08 22:15+0200\n"
+"Last-Translator: Teemu Muikku <verkkomuikku@gmail.com>\n"
+"Language-Team: Verkkomuikku <verkkomuikku@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ./.\n"
+
+#: verkkomuikku-fb-plugin.php:158
+msgid "Verkkomuikku FB plugin"
+msgstr "Verkkomuikku FB plugin"
+
+#: verkkomuikku-fb-plugin.php:167
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: verkkomuikku-fb-plugin.php:168
+msgid "Use plugin CSS"
+msgstr "Använd tilläggets CSS"
+
+#: verkkomuikku-fb-plugin.php:170
+msgid "Open Graph Settings"
+msgstr "Inställningar för Open Graph"
+
+#: verkkomuikku-fb-plugin.php:171
+msgid "Include site open graph meta. This is required if you want to show Like button for your site."
+msgstr "Inkludera sajtens open graph meta. Detta krävs om du vill visa Gilla knappen for din sajt."
+
+#: verkkomuikku-fb-plugin.php:172
+msgid "Open Graph meta tags for your site. These are not modified by post / page, please utilize Yoast SEO plugin to generate good og meta tags."
+msgstr "Open Graph metataggar för din sajt. Dessa modifieras inte per inlägg / sida, v.g. använd Yoast SEO tillägget för att generera bra Open Graph meta taggar."
+
+#: verkkomuikku-fb-plugin.php:174
+msgid "Facebook Application settings"
+msgstr "Inställningar för Facebook applikationen"
+
+#: verkkomuikku-fb-plugin.php:175
+msgid "Facebook Application ID"
+msgstr "Facebook applikationens ID"
+
+#: verkkomuikku-fb-plugin.php:176
+msgid "Facebook Application secret key"
+msgstr "Facebook applikationens hemliga nyckel"
+
+#: verkkomuikku-fb-plugin.php:197
+msgid "Facebook Like button requires Open Graph meta tags included in site HTML <head> section. If you wan't to use like button for your site, enable Open Graph for the site, fill at least required meta tags and use shortcode [vmfb_like_button] or call global $vmfb->like_button() to display the like button."
+msgstr "Facebook Gilla knappen kräver att Open Graph metataggar inkluderas i sajtens HTML <head> sektion. Om du vill använda gilla knappen för din sajt, enablera Open Graph för sajten, fyll åtminstone i de obligatoriska meta taggarna, och använda kortkoden [vmfb_like_button] eller kalla globala $vmfb->like_button() för att visa gilla knappen."
+
+#: verkkomuikku-fb-plugin.php:198
+msgid "You can enable like button for pages and posts if you like. The meta tags will get automatically modified to correspond the page or post."
+msgstr "Du kan enablera gilla knappen för sidor och inlägg om du vill. Metataggarna kommer att modifieras automatiskt så att de motsvarar sidan eller inlägget."
+
+#: verkkomuikku-fb-plugin.php:200
+msgid "How to use OG meta tags, see: "
+msgstr "För användning av Open Graph taggar, se:"
+
+#: verkkomuikku-fb-plugin.php:209
+msgid "To provide Facebook functionality, please provide Facebook application id and app secret"
+msgstr "För att möjliggöra Facebook funktionalitet, v.g. och ange Facebook applikations-ID och applikationshemlighet."
+
+#: verkkomuikku-fb-plugin.php:233
+msgid "If you use Yoast SEO plugin, you should use open graph section from there and disable this one."
+msgstr "Om du använder Yoast SEO tillägget bör du använda dess Open Graph section, och disablera den funktionaliteten här."
+
+#: verkkomuikku-fb-plugin.php:253
+msgid "The title of your object as it should appear within the graph. (blog name)"
+msgstr "Rubriken för ditt objekt, så som det borde visas i grafen. (bloggens namn)"
+
+#: verkkomuikku-fb-plugin.php:254
+msgid "website, see:"
+msgstr "websajt, se:"
+
+#: verkkomuikku-fb-plugin.php:255
+msgid "Image URL. Aspect ratio: max 3:1, supported types: PNG, JPG, GIF"
+msgstr "Bildens URL. Bredd-höjd-förhållande: max 3:1, stödda typer: PNG, JPG, GIF"
+
+#: verkkomuikku-fb-plugin.php:256
+msgid "The canonical URL of your object that will be used as its permanent ID in the graph. (site url)"
+msgstr "Fullständiga URLen ditt objekt kommer att använda som sitt permanenta ID i grafen. (sajtens url)"
+
+#: verkkomuikku-fb-plugin.php:257
+msgid "A human-readable name for your site. (blog name)"
+msgstr "Namnet på din sajt (riktat till mänskor). (bloggens namn)"
+
+#: verkkomuikku-fb-plugin.php:258
+msgid "A comma-separated list of either Facebook user IDs or a Facebook Platform application ID (fill into field app_id) that administers this page. It is valid to include both fb:admins and fb:app_id on your page."
+msgstr "En komma-separerad lista på antingen Facebook användar-IDn eller ID på en Facebook Platform Applikation (fyll i i fältet app_id) som administrerar denna sida. De kan lista både fb:admins och fb:app_id på din sida."
+
+#: verkkomuikku-fb-plugin.php:259
+msgid "A one to two sentence description of your page. (blog description)"
+msgstr "En till två meningars beskrivning på din sida. (bloggen beskrivning)"
+
+#: includes/vmfb-sharing.php:71
+msgid "Sharing buttons"
+msgstr "Dela knappar"
+
+#: includes/vmfb-sharing.php:72
+msgid "Facebook Like, open graph meta tags required."
+msgstr "Facebook Gilla, Open Graph meta taggar krävs."
+
+#: includes/vmfb-sharing.php:73
+msgid "Facebook Share, open graph meta tags required."
+msgstr "Facebook Dela, Open Graph meta taggar krävs."
+
+#: includes/vmfb-sharing.php:74
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/vmfb-sharing.php:75
+msgid "Google+"
+msgstr "Google+"
+
+#: includes/vmfb-sharing.php:86
+msgid "Select which sharing options you wan't to show and use template function vmfb_show_sharing_buttons()"
+msgstr "Välj vilka dela-inställningar du vill visa och använd template funktionen vmfb_show_sharing_buttons()"
+
+#: includes/vmfb-sharing.php:122
+msgid "Give Twitter username who to @ mention on the tweet"
+msgstr "Ge Twitter användarnamn för vem som ska @ nämnas i tweeten"
+
+#: includes/vmfb-sharing.php:123
+msgid "Give up to two Twitter username(s) who recommend to be followed separated with (:). Example; username1:username2"
+msgstr "Ge upp till två Twitter användarnamn som rekommenderade att bli följda, separerade med (:). T.ex. username1:username2"
+
+#: includes/vmfb-fb-wall.php:66
+msgid "at"
+msgstr "på"
+
+#: includes/vmfb-fb-wall.php:67
+msgid "like this"
+msgstr "gilla detta"
+
+#: includes/vmfb-fb-wall.php:68
+msgid "likes this"
+msgstr "gillar detta"
+
+#: includes/vmfb-fb-wall.php:69
+msgid "has not shared any information."
+msgstr "har inte delat någon ny information"
+
+#: includes/vmfb-fb-wall.php:70
+msgid "people"
+msgstr "folk"
+
+#: includes/vmfb-fb-wall.php:175
+msgid "Facebook Wall settings"
+msgstr "Inställningar för Facebook väggen"
+
+#: includes/vmfb-fb-wall.php:176
+msgid "Facebook Object ID (group, user...)"
+msgstr "Facebook Object ID (group, user...)"
+
+#: includes/vmfb-fb-wall.php:177
+msgid "Facebook Object Access Token"
+msgstr "Facebook Object Access Token"
+
+#: includes/vmfb-fb-wall.php:178
+msgid "How many to display?"
+msgstr "Hur många ska visas?"
+
+#: includes/vmfb-fb-wall.php:179
+msgid "Show comments"
+msgstr "Visa kommentarer"
+
+#: includes/vmfb-fb-wall.php:180
+msgid "Show guest entries"
+msgstr "Visa gästinlägg"
+
+#: includes/vmfb-fb-wall.php:191
+msgid "To show Facebook Wall in your site, please fill following options and use Facebook Wall Widget or call function vmfb_wall()"
+msgstr "För att visa Facebook väggen på din sajt, fyll i följande fält och använd Facebook Wall Widget eller kalla funktionen vmfb_wall()"
+
+#: includes/vmfb-fb-wall.php:221
+msgid "Site app access token is used, unless you specify an access token here. Open groups / pages wall can be displayed with site app access token. If you wan't to show something private, please provide access_token here!"
+msgstr "Sajtens app access_token används, om du inte anger ett access_token här. Öppna grupper/sidor väggen kan visas med sajtens app access_token. Om du vill visa nåt privat, v.g. ge access_token här!"
+
+#: includes/vmfb-fb-wall.php:295
+msgid "Your browser (IE 7) doesn't support this functionality. Please update your browser or switch to Chrome or FireFox."
+msgstr "Din browser (IE 7) stöder inte denna funktionalitet. V.g. uppdatera din browser eller byt med fördel till Chrome eller Firefox."
+
+#: includes/vmfb-admin-settings.php:10
+msgid "Verkkomuikku Facebook plugin settings"
+msgstr "Inställningar för Verkkomuikku Facebook tillägget"
+
+#: includes/vmfb-admin-settings.php:14
+msgid "Settings saved"
+msgstr "Inställningarna sparade"
+
+#: includes/vmfb-admin-settings.php:18
+msgid "Basic Information"
+msgstr "Grundinfo"
+
+#: includes/vmfb-admin-settings.php:24
+msgid "Include Open Graph meta into your site and turn your site into a Facebook page."
+msgstr "Inkludera Open Graph meta på din sajt och gör din sajt till en Facebook sida."
+
+#: includes/vmfb-admin-settings.php:27
+msgid "NOTE: this plugin requires Facebook application for your site. Also some functionality requires user info (Facebook Connect). The simplest way is to use Verkkomuikku Front end user plugin"
+msgstr "OBS! detta tillägg kräver registrering av en Facebook applikation för din sajt. Viss funktionalitet kräver användarinfo (Facebook Connect). Det lättaste sättet är att använda Verkkomuikku Front end user tillägget"
+
+#: includes/vmfb-widgets.php:48
+msgid "Title:"
+msgstr "Rubrik:"
+

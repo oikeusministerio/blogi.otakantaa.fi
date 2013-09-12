@@ -1,0 +1,900 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Verkkomuikku Front end user plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-10 23:39+0200\n"
+"PO-Revision-Date: 2012-10-10 23:39+0200\n"
+"Last-Translator: Teemu Muikku <verkkomuikku@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ./.\n"
+
+#: verkkomuikku-front-end-user-plugin.php:489
+msgid "User account activation argument(s) missing..."
+msgstr "Argument för aktivering av användarkontot saknas..."
+
+#: verkkomuikku-front-end-user-plugin.php:516
+msgid "The user you tried to activate is already activated."
+msgstr ""
+
+#: verkkomuikku-front-end-user-plugin.php:520
+msgid "The activation key was wrong."
+msgstr "Aktiveringsnyckeln var fel."
+
+#: verkkomuikku-front-end-user-plugin.php:537
+msgid "You have to activate your account before you can log in. Check your email for an activation link. Your account is activated when you click the activation link."
+msgstr "Du måste aktivera ditt konto före du kan logga in. Kolla din e-post, du borde ha fått en aktiveringslink. Ditt konto aktiveras när du klickar på aktiveringslinken."
+
+#: verkkomuikku-front-end-user-plugin.php:555
+msgid "You cannot change your password before your account is activated. Check your email for an activation link. Your account is activated when you click the activation link."
+msgstr "Du kan inte ändra ditt lösenord före ditt konto har aktiverats. Kolla din e-post, du borde ha fått en aktiveringslink. Ditt konto aktiveras när du klickar på aktiveringslinken."
+
+#: verkkomuikku-front-end-user-plugin.php:601
+msgid "Resend activation link."
+msgstr "Skicka aktiveringslänken igen."
+
+#: verkkomuikku-front-end-user-plugin.php:636
+#: includes/vmfeu-field-base-classes.php:1607
+#, php-format
+msgid "%s - Activate your user account"
+msgstr "%s - Aktivera ditt användarkonto"
+
+#: verkkomuikku-front-end-user-plugin.php:641
+#, php-format
+msgid "Thanks for registering at %s! To complete the registration process of your account please click the following activation link: "
+msgstr "Tack för att du registrerade dej på %s! För att slutföra registreringsprocessen för ditt konto, var god och klicka på följande aktiveringslink:"
+
+#: verkkomuikku-front-end-user-plugin.php:902
+#, php-format
+msgid "Verkkomuikku front end user plugin %1$s page is in, the plugin doesn't work without the page. Please restore the page from trash or empty the trashbin and new %1$s page will be created automatically."
+msgstr ""
+
+#: verkkomuikku-front-end-user-plugin.php:913
+#: verkkomuikku-front-end-user-plugin.php:1595
+msgid "Front-end user plugin"
+msgstr "Front-end användartillägg"
+
+#: verkkomuikku-front-end-user-plugin.php:923
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: verkkomuikku-front-end-user-plugin.php:924
+msgid "Use plugin CSS"
+msgstr "Använd tilläggets CSS"
+
+#: verkkomuikku-front-end-user-plugin.php:925
+msgid "Allow lost password / reset password"
+msgstr "Tillåt glömt lösenord / nollställ lösenord"
+
+#: verkkomuikku-front-end-user-plugin.php:926
+msgid "Show bot check question after first log in."
+msgstr "Visa bot-kontrollfrågan efter första inloggning."
+
+#: verkkomuikku-front-end-user-plugin.php:927
+msgid "Require account activation (user may not log in until he has clicked link in his email to activate the account."
+msgstr "Kräv kontoaktivering (användaren kan inte logga in före han har klickat på en länk han fått per e-post för att aktivera kontot)."
+
+#: verkkomuikku-front-end-user-plugin.php:928
+msgid "Redirect user to profile if there is invalid userinfo fields. User is not allowed anywhere else on the page but profile and logout."
+msgstr "Skicka användaren till profilsidan om det finns oglitig användarinfo. Användaren kan endast se sidans profil- och utloggningsfunktioner."
+
+#: verkkomuikku-front-end-user-plugin.php:929
+msgid "Users are allowed to create one user account per hour. Admins can create accounts as they wish."
+msgstr "Användare får skapa ett användarkonto per timme. Administratörer kan skapa konton helt som de önskar."
+
+#: verkkomuikku-front-end-user-plugin.php:930
+msgid "If you require users to accept terms and conditions, give terms and conditions page id."
+msgstr "Om du kräver att användare ska acceptera termer och villkor, ge id för sidan om dessa."
+
+#: verkkomuikku-front-end-user-plugin.php:1199
+msgid "20 last logins"
+msgstr "20 senaste inloggningar"
+
+#: verkkomuikku-front-end-user-plugin.php:1212
+msgid "Last day"
+msgstr "Senaste dan"
+
+#: verkkomuikku-front-end-user-plugin.php:1230
+msgid "Last week"
+msgstr "Senaste veckan"
+
+#: verkkomuikku-front-end-user-plugin.php:1248
+msgid "Last month"
+msgstr "Senaste månaden"
+
+#: verkkomuikku-front-end-user-plugin.php:1548
+#: includes/vmfeu-fb-connect.php:799
+msgid "Log out"
+msgstr "Logga ut"
+
+#: verkkomuikku-front-end-user-plugin.php:1596
+#, php-format
+msgid "You might not be able to see and edit all user information fields from dashboard. To edit custom user info fields <a href=\"%s\">click here</a>"
+msgstr "Det kan hända att du inte kan se och ändra alla användarinfofält via kontrollpanelen. För att ändra skräddarsydda infofält, <a href=\"%s\">klicka här</a>"
+
+#: verkkomuikku-front-end-user-plugin.php:1608
+#, php-format
+msgid "Vmfeu: Warning, field %s is in the fieldset but not in the fields!"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:130
+#, php-format
+msgid "Check permissions for the default WordPress uploads folder %s/uploads."
+msgstr ""
+
+#: includes/vmfeu-avatar.php:134
+msgid "Vmfeu avatars disabled: The avatar upload directory is not writable by Apache."
+msgstr ""
+
+#: includes/vmfeu-avatar.php:244
+msgid "Avatar settings"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:245
+#, fuzzy
+msgid "Add avatar upload to registration and profile forms."
+msgstr "att lägga till ett registreringsformuär."
+
+#: includes/vmfeu-avatar.php:246
+msgid "Show the uploaded avatars as user avatar instead of Gravatars etc."
+msgstr ""
+
+#: includes/vmfeu-avatar.php:247
+msgid "Crop to size. 150px crop should be ok, WordPress displays 96px avatars by default."
+msgstr ""
+
+#: includes/vmfeu-avatar.php:248
+msgid "Directory where the avatars reside."
+msgstr ""
+
+#: includes/vmfeu-avatar.php:249
+msgid "URL of the directory."
+msgstr ""
+
+#: includes/vmfeu-avatar.php:260
+msgid "Allow users to upload their avatars from computer."
+msgstr ""
+
+#: includes/vmfeu-avatar.php:352
+msgid "Avatar uploaded"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:359
+#, php-format
+msgid "Error processing the image! %s"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:364
+msgid "Error initializing php class upload!"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:367
+msgid "No file!"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:386
+msgid "No File!"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:437
+msgid "The avatar will be set when you save your profile."
+msgstr ""
+
+#: includes/vmfeu-avatar.php:443
+#, php-format
+msgid "Error processing the cropped image! %s"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:447
+#, php-format
+msgid "Error uploading the cropped image! %s"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:492
+msgid "Avatar removed"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:497
+msgid "You can't edit the user!"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:619
+#, fuzzy
+msgid "Profile picture"
+msgstr "Profilen uppdaterad."
+
+#: includes/vmfeu-avatar.php:709
+msgid "Save"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:710
+msgid "Cancel"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:796
+msgid "Remove_avatar"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:796
+msgid "Remove"
+msgstr ""
+
+#: includes/vmfeu-avatar.php:805
+msgid "Select area to crop the image. When ready, click 'Save'"
+msgstr ""
+
+#: includes/vmfeu-front-end-register.php:116
+#, fuzzy, php-format
+msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\" rel=\"nofollow\">%2$s</a>.  You don't need another account."
+msgstr "Du är inloggad som <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. Du behöver inget annat konto."
+
+#: includes/vmfeu-front-end-register.php:116
+#: includes/vmfeu-front-end-login.php:386
+msgid "Log out of this account"
+msgstr "Logga ut från det här kontot"
+
+#: includes/vmfeu-front-end-register.php:116
+msgid "Logout &raquo;"
+msgstr "Logga ut &raquo;"
+
+#: includes/vmfeu-front-end-register.php:130
+msgid "Add another user"
+msgstr "Lägg till en ny användare"
+
+#: includes/vmfeu-front-end-register.php:139
+#, fuzzy
+msgid "You may now log in with your username and password."
+msgstr "Lösenordet ändrat! Du kan nu logga in med ditt nya lösenord."
+
+#: includes/vmfeu-front-end-register.php:255
+msgid "Users can register themselves or you can manually create users here."
+msgstr "Användarna kan registrera sej själv. Du kan också skapa användare manuellt här."
+
+#: includes/vmfeu-front-end-register.php:257
+msgid "Users have to activate their account before they can log in. Admin created accounts aren't required activation."
+msgstr "Användare måste aktivera sina konton före de kan logga in. Konton skapade av administratörer behöver inte aktiveras."
+
+#: includes/vmfeu-front-end-register.php:263
+msgid "Users cannot currently register themselves, but you can manually create users here."
+msgstr "Användarna kan för tillvället inte registrera sej själva, men du kan manuellt skapa användare här."
+
+#: includes/vmfeu-front-end-register.php:267
+msgid "Only an administrator can add new users."
+msgstr "Endast admintratörer kan lägga till nya användare."
+
+#: includes/vmfeu-front-end-register.php:286
+#: includes/vmfeu-front-end-profile.php:255
+msgid " Send these credentials via email."
+msgstr "Skicka dessa loginuppgifter via e-post."
+
+#: includes/vmfeu-field-base-classes.php:53
+#: includes/vmfeu-field-base-classes.php:304
+#, php-format
+msgid "Please enter %s."
+msgstr "Var god och fyll i %s."
+
+#: includes/vmfeu-field-base-classes.php:53
+#: includes/vmfeu-field-base-classes.php:304
+#, php-format
+msgid "%s contains illegal characters."
+msgstr "%s innehåller otillåtna tecken."
+
+#: includes/vmfeu-field-base-classes.php:124
+#: includes/vmfeu-field-base-classes.php:870
+#, php-format
+msgid "%s is mandatory"
+msgstr "%s är ett obligatoriskt fält"
+
+#: includes/vmfeu-field-base-classes.php:172
+#: includes/vmfeu-field-base-classes.php:581
+#: includes/vmfeu-field-base-classes.php:689
+#: includes/vmfeu-field-base-classes.php:937
+#, php-format
+msgid "%s value is not valid."
+msgstr "Värdet du angett för %s är inte ok."
+
+#: includes/vmfeu-field-base-classes.php:844
+#, php-format
+msgid "%s - Please select at least one option."
+msgstr ""
+
+#: includes/vmfeu-field-base-classes.php:1043
+msgid "Terms and conditions"
+msgstr "Termer och villkor"
+
+#: includes/vmfeu-field-base-classes.php:1046
+#, php-format
+msgid "I accept %s"
+msgstr "Jag accepterar %s"
+
+#: includes/vmfeu-field-base-classes.php:1061
+msgid "My information"
+msgstr "Min information"
+
+#: includes/vmfeu-field-base-classes.php:1065
+msgid "Login information"
+msgstr "Inloggningsinformation"
+
+#: includes/vmfeu-field-base-classes.php:1115
+#, php-format
+msgid "A user account for %s has been created."
+msgstr "Ett användarkonto har skapats för användaren %s"
+
+#: includes/vmfeu-field-base-classes.php:1116
+#, php-format
+msgid "Thank you for registering, %s."
+msgstr "Tack, %s, för att du registrerade dej."
+
+#: includes/vmfeu-field-base-classes.php:1117
+#, php-format
+msgid "Thank you for registering, %s.<br/><b>Please check your email and click the activation link to finish registration process.</b>"
+msgstr "Tack för att du registrerade dej, %s. <br/><b>Var god och kontrollera din e-post och klicka på aktiveringslänken för att slutföra registreringsprocessen. </b>"
+
+#: includes/vmfeu-field-base-classes.php:1118
+#, fuzzy
+msgid "An email containing the user credentials was successfully sent to user."
+msgstr "Ett e-postmeddelande med användarnamn och lösenord skickades till användaren."
+
+#: includes/vmfeu-field-base-classes.php:1119
+msgid "You got also an email containing login credentials."
+msgstr ""
+
+#: includes/vmfeu-field-base-classes.php:1120
+msgid "An error occured while trying to send the notification email to user."
+msgstr "Ett fel uppstod när e-postnotifikationen skulle skickas till användaren."
+
+#: includes/vmfeu-field-base-classes.php:1121
+msgid "An error occured while trying to send the notification email."
+msgstr "Ett fel uppstod när e-postnotifikationen skulle skickas."
+
+#: includes/vmfeu-field-base-classes.php:1122
+msgid "Add User"
+msgstr "Lägg till användare"
+
+#: includes/vmfeu-field-base-classes.php:1123
+#: includes/vmfeu-front-end-lost-password.php:200
+msgid "Register"
+msgstr "Registrering"
+
+#: includes/vmfeu-field-base-classes.php:1125
+#: includes/vmfeu-field-custom-classes.php:33
+msgid "Username"
+msgstr "Användarnamn"
+
+#: includes/vmfeu-field-base-classes.php:1126
+msgid "Create new user account!"
+msgstr "Skapa ett nytt användarkonto!"
+
+#: includes/vmfeu-field-base-classes.php:1167
+msgid "First name"
+msgstr "Förnamn"
+
+#: includes/vmfeu-field-base-classes.php:1172
+msgid "Last name"
+msgstr "Efternamn"
+
+#: includes/vmfeu-field-base-classes.php:1179
+msgid "Website"
+msgstr "Webbsida"
+
+#: includes/vmfeu-field-base-classes.php:1186
+msgid "About me"
+msgstr "Om mej"
+
+#: includes/vmfeu-field-base-classes.php:1437
+#, php-format
+msgid "Fields marked with %s are mandatory."
+msgstr "Fält märkta %s är obligatoriska."
+
+#: includes/vmfeu-field-base-classes.php:1556
+msgid "User login, email and password are required!"
+msgstr "Användarlogin, e-post och lösenord är obligatoriska!"
+
+#: includes/vmfeu-field-base-classes.php:1583
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Ny användare registrerad"
+
+#: includes/vmfeu-field-base-classes.php:1611
+#, php-format
+msgid "%s - Your user account details"
+msgstr "%s - Detaljer för ditt användarkonto"
+
+#: includes/vmfeu-field-base-classes.php:1656
+msgid "User ID and email are required!"
+msgstr "Användar ID och e-post är obligatoriska!"
+
+#: includes/vmfeu-field-base-classes.php:1673
+#, php-format
+msgid "%s - your new password"
+msgstr "%s - ditt nya lösenord"
+
+#: includes/vmfeu-field-base-classes.php:1756
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr "Ny användare på din sajt %s:"
+
+#: includes/vmfeu-field-base-classes.php:1757
+#: includes/vmfeu-field-base-classes.php:1785
+#: includes/vmfeu-field-base-classes.php:1793
+#: includes/vmfeu-wp-functions.php:82
+#, php-format
+msgid "Username: %s"
+msgstr "Användarnamn: %s"
+
+#: includes/vmfeu-field-base-classes.php:1758
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-post: %s"
+
+#: includes/vmfeu-field-base-classes.php:1766
+msgid "The user has to to click activation link on her email in order to log in."
+msgstr "Användaren måste klicka på en e-postad aktiveringslänk för att logga in."
+
+#: includes/vmfeu-field-base-classes.php:1774
+#, php-format
+msgid "Password changed for user %s for site %s."
+msgstr "Lösenord ändrat för användaren %s; sajt %s."
+
+#: includes/vmfeu-field-base-classes.php:1775
+#, php-format
+msgid "Your new password is: %s"
+msgstr "Ditt nya lösenord är: %s"
+
+#: includes/vmfeu-field-base-classes.php:1776
+#, php-format
+msgid "If you didn't change your password and think someone has stolen your account, please contact %s"
+msgstr "Om du inte ändrade ditt lösenord och tror nån har stulit ditt konto, var god kontakta %s"
+
+#: includes/vmfeu-field-base-classes.php:1784
+#: includes/vmfeu-field-base-classes.php:1792
+#, php-format
+msgid "Your username and password for site %s:"
+msgstr "Ditt användarnamn och lösenord för sajten %s:"
+
+#: includes/vmfeu-field-base-classes.php:1786
+#: includes/vmfeu-field-base-classes.php:1794
+#, php-format
+msgid "Password: %s"
+msgstr "Lösenord: %s"
+
+#: includes/vmfeu-field-base-classes.php:1787
+msgid "In order to finish registration process, please activate your account by clicking the activation link:"
+msgstr "För att slutföra registreringsprocessen, var god och aktivera ditt konto genom att klicka på följande aktiveringslänk:"
+
+#: includes/vmfeu-field-base-classes.php:1795
+msgid "Welcome!"
+msgstr "Välkommen!"
+
+#: includes/vmfeu-field-base-classes.php:1830
+#, php-format
+msgid "You have already created an user account. If you want to create multiple accounts, please wait %s minutes or contact site owner."
+msgstr "Du har redan skapat ett användarkonto. Om du vill skapa flera konton, var god vänta %s minuter eller kontakta sajtens ägare."
+
+#: includes/vmfeu-field-base-classes.php:1937
+#, php-format
+msgid "Give correct result for equation %s"
+msgstr "Ge rätt resultat för ekvationen %s"
+
+#: includes/vmfeu-field-base-classes.php:1941
+#: includes/vmfeu-field-base-classes.php:1948
+#: includes/vmfeu-field-base-classes.php:1955
+#: includes/vmfeu-field-base-classes.php:1962
+msgid "Humanity check"
+msgstr "Mänsklighetskontroll"
+
+#: includes/vmfeu-field-base-classes.php:2004
+msgid "No such question!"
+msgstr "Ingen sån fråga!"
+
+#: includes/vmfeu-front-end-login.php:179
+msgid "User account activation didn't work:"
+msgstr "Aktivering av användarkontot funkade inte:"
+
+#: includes/vmfeu-front-end-login.php:185
+msgid "Your account has been activated! You may now log in!"
+msgstr "Ditt konto har aktiverats! Du kan nu logga in!"
+
+#: includes/vmfeu-front-end-login.php:190
+msgid "Error sending email."
+msgstr "Det inträffade ett fel vid sändningen av e-post."
+
+#: includes/vmfeu-front-end-login.php:194
+msgid "New user account activation email sent."
+msgstr "Ett e-postmedddelande för registrering av användarkonto har skickats."
+
+#: includes/vmfeu-front-end-login.php:260
+msgid "Lost password?"
+msgstr "Glömt lösenordet?"
+
+#: includes/vmfeu-front-end-login.php:313
+#: includes/vmfeu-field-custom-classes.php:139
+#: includes/vmfeu-field-custom-classes.php:191
+msgid "Password"
+msgstr "Lösenord"
+
+#: includes/vmfeu-front-end-login.php:320
+msgid "Remember me"
+msgstr "Kom ihåg mej"
+
+#: includes/vmfeu-front-end-login.php:327
+#: includes/vmfeu-front-end-lost-password.php:198
+msgid "Log in"
+msgstr "Logga in"
+
+#: includes/vmfeu-front-end-login.php:384
+msgid "Edit profile"
+msgstr "Ändra profilen"
+
+#: includes/vmfeu-front-end-login.php:386
+msgid "Log out &raquo;"
+msgstr "Logga ut &raquo;"
+
+#: includes/vmfeu-front-end-profile.php:64
+#, fuzzy
+msgid "Please log in first to see your profile."
+msgstr "Du måste vara inloggad för att kunna ändra din profil."
+
+#: includes/vmfeu-front-end-profile.php:119
+#, fuzzy
+msgid "You have been redirected to your profile to fill some missing information."
+msgstr "Du har skickats hit till din profil p.g.a. det saknas information i profilen. "
+
+#: includes/vmfeu-front-end-profile.php:120
+#, fuzzy
+msgid "You may browse the site after you update your profile. Thank you!"
+msgstr "Du kan surfa in på sajten efter att du fyllt i alla obligatoriska fält. Tack!"
+
+#: includes/vmfeu-front-end-profile.php:131
+msgid "Profile updated."
+msgstr "Profilen uppdaterad."
+
+#: includes/vmfeu-front-end-profile.php:136
+msgid "Password changed."
+msgstr "Lösenordet ändrat."
+
+#: includes/vmfeu-front-end-profile.php:144
+#, fuzzy
+msgid "An email containing new password was sent to the user."
+msgstr "Ett e-postmeddelande med ditt nya lösenord har skickats till din e-postadress."
+
+#: includes/vmfeu-front-end-profile.php:155
+msgid "We tried to send the notification email but an error occured. Please notify the user that her password has changed (with your email client) or try again."
+msgstr ""
+
+#: includes/vmfeu-front-end-profile.php:166
+#, php-format
+msgid "Couldn't send 'password changed' email to user %s, email %s!"
+msgstr ""
+
+#: includes/vmfeu-front-end-profile.php:172
+msgid "Notification of password change was NOT sent to the user via email. If you wish to send the password, please check the checkbox at the bottom of the profile form and change the password again."
+msgstr ""
+
+#: includes/vmfeu-front-end-profile.php:205
+msgid "Log in first to access profile.."
+msgstr ""
+
+#: includes/vmfeu-front-end-profile.php:267
+msgid "Update"
+msgstr "Uppdatera"
+
+#: includes/vmfeu-front-end-lost-password.php:74
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Sorry, men nyckeln verkar inte vara giltig."
+
+#: includes/vmfeu-front-end-lost-password.php:100
+#: includes/vmfeu-field-custom-classes.php:158
+#: includes/vmfeu-field-custom-classes.php:165
+msgid "The passwords do not match."
+msgstr "Lösenorden matchade inte varandra."
+
+#: includes/vmfeu-front-end-lost-password.php:148
+msgid "Check your email for password change confirmation link."
+msgstr "Kolla din e-post, vi skickade dej ett meddelande med en länk där du kan bekräfta att du vill byta lösenord."
+
+#: includes/vmfeu-front-end-lost-password.php:151
+msgid "Password changed! You may now log in with your new password."
+msgstr "Lösenordet ändrat! Du kan nu logga in med ditt nya lösenord."
+
+#: includes/vmfeu-front-end-lost-password.php:177
+msgid "Your username or e-mail"
+msgstr "Fyll i användarnamn eller e-post"
+
+#: includes/vmfeu-front-end-lost-password.php:218
+#, php-format
+msgid "Change password for user %s"
+msgstr "Ändra ditt lösenord för användaren %s"
+
+#: includes/vmfeu-front-end-lost-password.php:220
+msgid "New password"
+msgstr "Nytt lösenord"
+
+#: includes/vmfeu-front-end-lost-password.php:225
+msgid "Confirm new password"
+msgstr "Bekräfta nya lösenordet"
+
+#: includes/vmfeu-front-end-lost-password.php:233
+#, fuzzy
+msgid "Change password"
+msgstr "Nytt lösenord"
+
+#: includes/vmfeu-fb-connect.php:221
+msgid "Facebook Connect settings"
+msgstr "Facebook Connect inställningar"
+
+#: includes/vmfeu-fb-connect.php:222
+msgid "Facebook Application ID"
+msgstr "Facebook Application ID"
+
+#: includes/vmfeu-fb-connect.php:223
+msgid "Facebook Application secret key"
+msgstr "Facebook Application hemlig nycel"
+
+#: includes/vmfeu-fb-connect.php:224
+msgid "Enable Facebook Connect"
+msgstr "Enablera Facebook Connect"
+
+#: includes/vmfeu-fb-connect.php:267
+msgid "To provide facebook login / register functionality. Please provide Facebook app id and app secret, and check 'Facebook Connect Enabled' option."
+msgstr "För Facebook login / registreringsfunktionalitet. V.g. och ge din Facebook app id och hemliga nyckel, kruxa sen för \"Facebook Connect enablerat\" inställningen."
+
+#: includes/vmfeu-fb-connect.php:797
+msgid "Edit your profile"
+msgstr "Ändra din profil"
+
+#: includes/vmfeu-fb-connect.php:799
+msgid "Log out from this site"
+msgstr "Logga ut från den här sajten"
+
+#: includes/vmfeu-fb-connect.php:835
+#, php-format
+msgid "You are connected with Facebook and now editing your local profile at %s."
+msgstr "Du är kopplad till Facebook och ändrar nu din lokala profil på %s."
+
+#: includes/vmfeu-fb-connect.php:853
+#, php-format
+msgid "Your user account at %s has been created. From now on you can log in with Facebook Connect or set up local password."
+msgstr "Ditt användarkonto på %s har skapats. Fr.o.m. nu kan du logga in med Facebook Connect eller skapa ett lokalt lösenord."
+
+#: includes/vmfeu-fb-connect.php:856
+msgid "Please fill the additional background information we require from our users that couldn't be fetched from Facebook.<br/>Thank you for connecting with us!"
+msgstr "Var god och fyll i den extra bakgrundsinformation we kräver av våra användare men som inte kunde fås från Facebook. <br/> Tack för att du kopplade dej til oss!"
+
+#: includes/vmfeu-fb-connect.php:892
+msgid "Facebook Connect"
+msgstr "Facebook Connect"
+
+#: includes/vmfeu-fb-connect.php:894
+msgid "Use Facebook profile picture as my avatar"
+msgstr "Använd profilbilden från Facebook som min avatar"
+
+#: includes/vmfeu-fb-connect.php:895
+msgid "Show link to my Facebook profile"
+msgstr "Visa en link till min Facebook profil"
+
+#: includes/vmfeu-fb-connect.php:948
+msgid "Login with Facebook"
+msgstr "Logga in med Facebook"
+
+#: includes/vmfeu-fb-connect.php:949
+msgid "Connect with Facebook"
+msgstr "Koppla till Facebook"
+
+#: includes/vmfeu-fb-connect.php:1031
+#: includes/vmfeu-fb-connect.php:1040
+#, php-format
+msgid "%s on Facebook"
+msgstr "%s på Facebook"
+
+#: includes/vmfeu-field-custom-classes.php:34
+msgid "Username cannot be changed."
+msgstr "Användarnamnet kan inte ändras"
+
+#: includes/vmfeu-field-custom-classes.php:37
+#: includes/vmfeu-field-custom-classes.php:49
+msgid "Please enter an username."
+msgstr "Var god fyll i ett användarnamn."
+
+#: includes/vmfeu-field-custom-classes.php:37
+msgid "The username contains illegal characters. Allowed characters are letters, numbers and ' ', '_', '.'."
+msgstr "Användarnamnet innehåller otillåtna tecken. Tillåtna tecken är bokstäver, siffror och  ' ', '_', '.'."
+
+#: includes/vmfeu-field-custom-classes.php:52
+msgid "The username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "Användarnamnet är ogiltigt eftersom det innehåller otillåtna tecken. Var god och fyll i ett giltigt användarnamn."
+
+#: includes/vmfeu-field-custom-classes.php:58
+msgid "This username is already registered, please choose another one."
+msgstr "Det här användarnamnet är redan registrerat. Var god och välj ett annat."
+
+#: includes/vmfeu-field-custom-classes.php:86
+msgid "Email"
+msgstr "E-post"
+
+#: includes/vmfeu-field-custom-classes.php:88
+msgid "Please enter your email address."
+msgstr "Var god och fyll i din e-postadress."
+
+#: includes/vmfeu-field-custom-classes.php:88
+msgid "Email address appears to be invalid."
+msgstr "E-postadressen verkar inte vara giltig."
+
+#: includes/vmfeu-field-custom-classes.php:101
+msgid "Please type your e-mail address."
+msgstr "Var god och fyll i din e-postadress."
+
+#: includes/vmfeu-field-custom-classes.php:104
+msgid "The email address isn&#8217;t correct."
+msgstr "E-postadressen är inte giltig."
+
+#: includes/vmfeu-field-custom-classes.php:110
+msgid "This email is already registered, please choose another one."
+msgstr "Den här e-postadressen är redan registrerad, v.g. välj en annan."
+
+#: includes/vmfeu-field-custom-classes.php:140
+msgid "Write new password if you want to change it. Otherwise leave empty."
+msgstr "Fyll i ett nytt lösenord om du vill ändra det. Om inte, lämna tomt."
+
+#: includes/vmfeu-field-custom-classes.php:197
+msgid "Confirm password"
+msgstr "Bekräfta lösenord"
+
+#: includes/vmfeu-field-custom-classes.php:234
+msgid "Please answer the equation."
+msgstr "Var god och ge svaret på ekvationen."
+
+#: includes/vmfeu-admin-settings.php:10
+msgid "Verkkomuikku Front-end user plugin settings"
+msgstr "Verkkomuikku Front-end användar plugin inställningar"
+
+#: includes/vmfeu-admin-settings.php:14
+msgid "Settings saved"
+msgstr "Inställningarna sparade"
+
+#: includes/vmfeu-admin-settings.php:18
+msgid "Basic Information"
+msgstr "Grundinfo"
+
+#: includes/vmfeu-admin-settings.php:24
+msgid "Front-end user plugin lets you customize your website by adding custom registration, login and profile pages giving your users easier way to interact with your site."
+msgstr "Front-end användartillägg som låter dej kustomisera din webbsajt genom att lägga till en skräddarsydd registrering, inloggning och profilsidor som gör det enklare för dina användare att interagera med din sajt."
+
+#: includes/vmfeu-admin-settings.php:27
+msgid "Check login, registration and profile pages from Wordpress pages and edit your custom guide texts if necessary and add them to your menu. Also there is sidebar widget available"
+msgstr "Kolla login, registrering och profilsidor från Wordpress-sidorna och editera dina skräddarsydda guidetexter vid behov - lägg sen till dem till din meny. En sidebar widget finns också tillgänglig."
+
+#: includes/vmfeu-admin-settings.php:30
+msgid "Alternatively you can create your own pages and use the following shortcodes:"
+msgstr "Alternativt kan du skapa dina egna sidor och använda följande korta koder:"
+
+#: includes/vmfeu-admin-settings.php:33
+msgid "to grant users a front-end acces to their personal information (requires user to be logged in)."
+msgstr "för att ge användare front-end tillgång till deras personliga information (användaren måste vara inloggad)."
+
+#: includes/vmfeu-admin-settings.php:36
+msgid "for a basic log-in menu."
+msgstr "för en grundläggande login-meny."
+
+#: includes/vmfeu-admin-settings.php:39
+msgid "to add a lost password and reset password form."
+msgstr "för att lägga till ett formulär som sköter \"glömt lösenord\" och nollställ lösenord-funktionalitet."
+
+#: includes/vmfeu-admin-settings.php:42
+msgid "to add a registration form."
+msgstr "att lägga till ett registreringsformuär."
+
+#: includes/vmfeu-admin-settings.php:46
+msgid "Also, users with administrator rights have access to the following features:"
+msgstr "Dessutom får användare med administratorrättigheter tillgång till följande funktionalitet:"
+
+#: includes/vmfeu-admin-settings.php:49
+msgid "add a custom stylesheet/inherit values from the current theme or use the default one, built into this plug-in."
+msgstr "lägg till ett skräddarsytt stylesheet/ärv värden från temat eller använd standardstilar, inbyggda i detta tillägg."
+
+#: includes/vmfeu-admin-settings.php:52
+msgid "hides wp-login.php and dashboard from other than editors / admins with redirect to login page."
+msgstr "gömmer wp-login.php och kontrollpanelen från andra än editor- och adminanvändare med redirect till inloggningssidan."
+
+#: includes/vmfeu-admin-settings.php:55
+msgid "deny access to any page by user role."
+msgstr "blockera tillgång till vilken sida som helst per användarroll."
+
+#: includes/vmfeu-admin-settings.php:58
+msgid "select which information-field can the users see/modify. The hidden fields' values remain unmodified."
+msgstr "välj vilka informationfält som användare kan se/ändra. De gömda fältens värden ändras inte."
+
+#: includes/vmfeu-admin-settings.php:61
+msgid "NOTE: this plugin only adds/removes fields in the front-end. The default information-fields will still be visible(and thus modifiable) from the back-end, while custom fields will only be visible in the front-end."
+msgstr "OBS! detta tillägg lägger bara till och tar bort fält i front-end. Standardinformationsfälten kommer fortfarande att vara synliga (och kan alltså ändras) via back-end. Skräddarsydda fält kan endast ses via front-end."
+
+#: includes/vmfeu-widgets.php:50
+msgid "Title:"
+msgstr "Rubrik:"
+
+#: includes/vmfeu-wp-functions.php:38
+#, fuzzy
+msgid "Please enter a username or e-mail address."
+msgstr "Var god och fyll i din e-postadress."
+
+#: includes/vmfeu-wp-functions.php:42
+#, fuzzy
+msgid "There is no user registered with that email address."
+msgstr "<strong>FEL</strong>: Det finns ingen registrerad användare med den e-postadressen."
+
+#: includes/vmfeu-wp-functions.php:54
+#, fuzzy
+msgid "Invalid username or e-mail."
+msgstr "Fyll i användarnamn eller e-post:"
+
+#: includes/vmfeu-wp-functions.php:68
+msgid "Password reset is not allowed for this user"
+msgstr "Nollställning av lösenord är inte tillåtet för den här användaren"
+
+#: includes/vmfeu-wp-functions.php:80
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Någon bad att lösenordet skulle nollställas för följande konto:"
+
+#: includes/vmfeu-wp-functions.php:83
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Om det är ett misstag, ignorera det här e-postmeddelandet och allt fortsätter som förut."
+
+#: includes/vmfeu-wp-functions.php:84
+msgid "To reset your password, visit the following address:"
+msgstr "För att nollställa ditt lösenord, gå till följande address:"
+
+#: includes/vmfeu-wp-functions.php:92
+#, php-format
+msgid "%s - Password Reset"
+msgstr "%s -  Nollställning av lösenord"
+
+#: includes/vmfeu-wp-functions.php:103
+msgid "The e-mail could not be sent."
+msgstr "E-post kunde inte skickas."
+
+#: includes/vmfeu-wp-functions.php:103
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Möjlig orsak: din värd kan ha disablerat mail() funktionen..."
+
+#: includes/vmfeu-wp-functions.php:124
+#: includes/vmfeu-wp-functions.php:127
+#: includes/vmfeu-wp-functions.php:132
+msgid "Invalid key"
+msgstr "Ogiltig nyckel"
+
+#, fuzzy
+#~ msgid "Log in with your new user account"
+#~ msgstr "Logga in med ditt nya användarkonto"
+
+#~ msgid "To frontpage"
+#~ msgstr "Till startsidan"
+
+#~ msgid "An email containing the username and password was successfully sent."
+#~ msgstr "Ett e-postmeddelade med användarnamn och lösenord skickades."
+
+#~ msgid "You are currently logged in as %1$s."
+#~ msgstr "Du är för tillfället inloggad som %1$s."
+
+#~ msgid "You have logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+#~ msgstr "Du har loggat in som <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#~ msgid ""
+#~ "Your password was changed. We tried to send you a notification email but "
+#~ "an error occured."
+#~ msgstr ""
+#~ "Ditt lösenord ändrades. Vi försökte skicka dej en notifikation men det "
+#~ "gick tyvärr inte."
+
+#~ msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+#~ msgstr "<strong>FEL</strong>: Fyll i användarnamn eller e-postadress."
+
+#~ msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+#~ msgstr "<strong>FEL</strong>: Ogiltigt användarnamn eller e-postadress."

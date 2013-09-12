@@ -1,0 +1,231 @@
+/*
+Combination of CSS files related to vmfeu-avatar.php (jCrop, uploadify etc.)
+Equal to
+  		<link href="<?php echo VMFEU_PLUGIN_URL."/includes/crop/"; ?>uploadify/uploadify.css" rel="stylesheet" type="text/css" />
+  		<link rel="stylesheet" href="<?php echo VMFEU_PLUGIN_URL."/includes/crop/"; ?>jcrop/jquery.Jcrop.css" type="text/css" />
+
+plus vmfeu-avatar related css
+
+*/
+
+/*
+Uploadify v2.1.4
+Release Date: November 8, 2010
+
+Copyright (c) 2010 Ronnie Garcia, Travis Nickels
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+.uploadifyQueueItem {
+	background-color: #F5F5F5;
+	border: 2px solid #E5E5E5;
+	font: 11px Verdana, Geneva, sans-serif;
+	margin-top: 5px;
+	padding: 10px;
+	width: 350px;
+}
+.uploadifyError {
+	background-color: #FDE5DD !important;
+	border: 2px solid #FBCBBC !important;
+}
+.uploadifyQueueItem .cancel {
+	float: right;
+}
+.uploadifyQueue .completed {
+	background-color: #E5E5E5;
+}
+.uploadifyProgress {
+	background-color: #E5E5E5;
+	margin-top: 10px;
+	width: 100%;
+}
+.uploadifyProgressBar {
+	background-color: #0099FF;
+	height: 3px;
+	width: 1px;
+}
+
+/*
+The jCrop css
+*/
+/* Fixes issue here http://code.google.com/p/jcrop/issues/detail?id=1 */
+.jcrop-holder { text-align: left; }
+
+.jcrop-vline, .jcrop-hline
+{
+	font-size: 0;
+	position: absolute;
+	background: white url('crop/img/Jcrop.gif') top left repeat;
+}
+.jcrop-vline { height: 100%; width: 1px !important; }
+.jcrop-hline { width: 100%; height: 1px !important; }
+.jcrop-handle {
+	font-size: 1px;
+	width: 7px !important;
+	height: 7px !important;
+	border: 1px #eee solid;
+	background-color: #333;
+	*width: 9px;
+	*height: 9px;
+}
+
+.jcrop-tracker { width: 100%; height: 100%; }
+
+.custom .jcrop-vline,
+.custom .jcrop-hline
+{
+	background: yellow;
+}
+.custom .jcrop-handle
+{
+	border-color: black;
+	background-color: #C7BB00;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+/*
+vmfeu-avatar css starts here...
+*/
+.vmfeu_avatar_content { position: relative; }
+
+object#vmfeu_avatar_uploadifyUploader {
+	opacity: 0; 
+	filter: alpha(opacity = 0);
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+	zoom: 1;
+	margin: 0 0 0 81px; 
+	position: absolute; 
+	z-index: 9999999;
+}
+
+.vmfeu_avatar_header{
+	width:1000px;
+	height:30px;
+	margin:0px auto 20px auto;
+	text-align:left;
+}
+h1{
+	padding:0px;
+	margin:0px;				
+	color:#999;				
+}
+.vmfeu_avatar_preview_container{
+	width:100px;
+	height:100px;
+	overflow:hidden;
+	margin-bottom:5px;
+	float: left;
+}
+a.vmfeu_avatar_preview_overlay{
+	background:#fff url('crop/img/edit.gif') no-repeat center center;
+	width:19px;
+	height:19px;
+	position:absolute;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	margin-left:81px;
+	cursor:pointer;
+}
+a.vmfeu_avatar_preview_overlay:hover{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+}
+.vmfeu_avatar_left{
+	width: 100px; 
+}
+.vmfeu_avatar_right, .update_profile_nag, .vmfeu_avatar_queue{
+	position: absolute; left: 105px; top: 0;
+}
+.vmfeu_avatar_footer{
+	width:100%;
+	text-align:center;
+	height:30px;		
+	margin-top:50px;
+	clear:both;
+}
+a img{
+	border:none;
+}
+object{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+ul.vmfeu_avatar_imgmenu{
+	float:left;
+	margin-top:100px;
+	padding:0px;
+	margin:0px;
+	border:2px solid #f0f0f0;
+	list-style-type:none;
+}
+ul.vmfeu_avatar_imgmenu li{
+	display:inline;
+	float:left;	
+	width:24px;
+	height:24px;	
+	cursor:pointer;				
+}
+li.vmfeu_avatar_rotate{
+	background: transparent url('crop/img/rotate.png') no-repeat top left;
+}
+li.vmfeu_avatar_bw{
+	background: transparent url('crop/img/bw.png') no-repeat top left;
+}
+li.vmfeu_avatar_negative{
+	background: transparent url('crop/img/negative.png') no-repeat top left;
+}
+li.vmfeu_avatar_sepia{
+	background: transparent url('crop/img/sepia.png') no-repeat top left;
+}
+
+.vmfeu_avatar_ajaxload{
+	background: url('crop/img/ajax-loader.gif') no-repeat center transparent;
+	width:16px;
+	height:26px;
+	float:left;
+	margin:0px 0px 0px 5px;
+}
+.vmfeu_avatar_control{
+	float: left;
+	width: 100px; 
+	margin: 0 0 5px 0;
+}
+
+a.vmfeu_crop_button {
+	cursor: pointer;
+	margin-right: 10px;
+	font-size: 16px;
+	float: left;
+	clear: both;
+	widht: 100%;
+} 
+
+/* Twenty eleven fix */
+.vmfeu_avatar_content img {
+	max-width: none;
+}
